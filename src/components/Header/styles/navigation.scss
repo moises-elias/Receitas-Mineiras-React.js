@@ -1,0 +1,58 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 20px;
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    li {
+      margin: 0 10px;
+    }
+  }
+}
+.button {
+  background-color: transparent;
+  color: $azul-royal;
+  border-radius: 5px;
+  border: 1px solid $azul-royal;
+  padding: 5px;
+  &:hover {
+    cursor: pointer;
+    background-color: $azul-royal;
+    color: white;
+  }
+}
+
+.categoryMenu {
+  display: none;
+}
+
+.categoryMenuOpen {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 1px solid $azul-royal;
+  border-radius: 5px;
+  background-color: $azul-royal;
+  color: white;
+  padding: 5px;
+  .categoryButton {
+    background-color: transparent;
+    color: $azul-base;
+    border-radius: 5px;
+    border: 1px solid $azul-royal;
+    padding: 5px;
+    text-decoration: underline;
+    &:hover {
+      cursor: pointer;
+      background-color: $azul-royal;
+      color: white;
+    }
+  }
+}

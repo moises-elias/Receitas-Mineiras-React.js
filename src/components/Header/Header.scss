@@ -1,0 +1,15 @@
+@import "../../styles/themes/_variables.scss";
+@import "./styles/logo.scss";
+@import "./styles/navigation.scss";
+@import "./styles/search.scss";
+@import "./styles/userMenu.scss";
+
+header {
+  width: 100%;
+  background-color: $azul-base;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}

@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  img {
+    padding: 0;
+    width: 30%;
+  }
+  img:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,29 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  gap: 5px;
+  input {
+    width: 100%;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid $azul-royal;
+    &:focus {
+      outline: black solid 3px;
+      background-color: $azul-royal;
+      &::placeholder {
+        color: black;
+      }
+    }
+  }
+
+  button {
+    background-color: transparent;
+    color: $azul-royal;
+    border-radius: 5px;
+    border: 1px solid $azul-royal;
+    padding: 5px;
+  }
+}

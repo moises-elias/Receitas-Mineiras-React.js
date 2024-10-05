@@ -1,0 +1,29 @@
+/* Remove margens e padding padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Garante que HTML e body ocupem a altura total da tela */
+html,
+body {
+  height: 100%;
+}
+
+/* Remove sublinhado de links */
+a {
+  text-decoration: none;
+}
+
+/* Remove bullets de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Define valores base para tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

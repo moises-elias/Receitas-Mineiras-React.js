@@ -1,8 +1,9 @@
 import { CircleArrowRightIcon, User2Icon, UserPlus } from "lucide-react";
 
 function UserMenu() {
-  const token = localStorage.getItem("token");
-  if (token == true) {
+  const isUserLoggedIn = localStorage.getItem("loggedIn");
+
+  function UserLoggedMenu() {
     return (
       <div className="userMenu">
         <a href="/account">
@@ -10,7 +11,9 @@ function UserMenu() {
         </a>
       </div>
     );
-  } else {
+  }
+
+  function UserNotLoggedMenu() {
     return (
       <div className="userMenu">
         <a href="/login">
@@ -24,5 +27,6 @@ function UserMenu() {
       </div>
     );
   }
+  return isUserLoggedIn ? <UserLoggedMenu /> : <UserNotLoggedMenu />;
 }
 export default UserMenu;

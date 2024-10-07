@@ -1,5 +1,5 @@
 import Logo from "./parts/Logo";
-import "./Header.scss";
+import "./styles.scss";
 import Navigation from "./parts/Navigation";
 import Search from "./parts/Search";
 import UserMenu from "./parts/UserMenu";

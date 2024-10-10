@@ -14,11 +14,13 @@
   }
 }
 .button {
+  user-select: none;
   background-color: transparent;
   color: $azul-royal;
   border-radius: 5px;
   border: 1px solid $azul-royal;
   padding: 5px;
+  font-size: 1em;
   &:hover {
     cursor: pointer;
     background-color: $azul-royal;
@@ -43,6 +45,7 @@
   color: white;
   padding: 5px;
   .categoryButton {
+    user-select: none;
     background-color: transparent;
     color: $azul-base;
     border-radius: 5px;

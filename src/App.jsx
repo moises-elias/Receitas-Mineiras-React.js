@@ -1,10 +1,11 @@
+import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
-import "./styles/App.scss";
 
 function App() {
   return (
     <>
-      <Header />;
+      <Header />
+      <Outlet />
     </>
   );
 }

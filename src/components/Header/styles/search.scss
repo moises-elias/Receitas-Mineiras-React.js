@@ -1,29 +1,33 @@
-.search {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
-  gap: 5px;
-  input {
-    width: 100%;
-    background-color: transparent;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid $azul-royal;
-    &:focus {
-      outline: black solid 3px;
-      background-color: $azul-royal;
-      &::placeholder {
-        color: black;
+header {
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 1%;
+    gap: 5px;
+    input {
+      width: 100%;
+      background-color: transparent;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid $azul-royal;
+      color: white;
+      &:focus {
+        outline: white solid 3px;
+        background-color: $azul-royal;
+        &::placeholder {
+          color: white;
+        }
       }
     }
-  }
 
-  button {
-    background-color: transparent;
-    color: $azul-royal;
-    border-radius: 5px;
-    border: 1px solid $azul-royal;
-    padding: 5px;
+    button {
+      background-color: transparent;
+      color: $azul-royal;
+      border-radius: 5px;
+      border: 1px solid $azul-royal;
+      padding: 5px;
+    }
   }
 }

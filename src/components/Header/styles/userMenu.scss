@@ -1,22 +1,24 @@
-.userMenu {
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: flex;
-  gap: 20px;
-  margin: 1%;
-  a {
-    background-color: $azul-royal;
+header {
+  .userMenu {
+    position: absolute;
+    right: 0;
+    top: 0;
     display: flex;
-    align-items: center;
-    color: white;
-    padding: 10px;
-    border: solid 1px $azul-royal;
-    border-radius: 5px;
-    gap: 5px;
+    gap: 20px;
+    margin: 1%;
+    a {
+      background-color: $azul-royal;
+      display: flex;
+      align-items: center;
+      color: white;
+      padding: 10px;
+      border: solid 1px $azul-royal;
+      border-radius: 5px;
+      gap: 5px;
 
-    &:hover {
-      outline: auto;
+      &:hover {
+        outline: auto;
+      }
     }
   }
 }

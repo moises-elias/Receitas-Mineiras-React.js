@@ -1,13 +1,17 @@
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 20px;
-  img {
+header {
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
     padding: 0;
-    width: 30%;
-  }
-  img:hover {
-    cursor: pointer;
+    margin: 1%;
+
+    img {
+      padding: 0;
+      width: 40%;
+    }
+    img:hover {
+      cursor: pointer;
+    }
   }
 }

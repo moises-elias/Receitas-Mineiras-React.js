@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { X, ChevronDownIcon } from "lucide-react";
+import "./styles.navigation.scss";
 
 function Navigation() {
   const [categoryMenuState, setCategoryMenuState] = useState(false);
@@ -12,7 +13,6 @@ function Navigation() {
   function CategoryMenDropdown() {
     function handleClickOutside(event) {
       if (
-
         categoryMenuDropdownRef.current &&
         !categoryMenuDropdownRef.current.contains(event.target)
       ) {

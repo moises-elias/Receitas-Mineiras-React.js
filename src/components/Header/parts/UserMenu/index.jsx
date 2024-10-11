@@ -1,5 +1,5 @@
 import { CircleArrowRightIcon, User2Icon, UserPlus } from "lucide-react";
-
+import "./styles.userMenu.scss";
 function UserMenu() {
   const isUserLoggedIn = localStorage.getItem("loggedIn");
 

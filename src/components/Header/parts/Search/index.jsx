@@ -1,5 +1,5 @@
 import { SearchIcon } from "lucide-react";
-
+import "./styles.search.scss";
 function Search() {
   return (
     <div className="search">

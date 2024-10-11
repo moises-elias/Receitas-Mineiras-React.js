@@ -1,8 +1,8 @@
 import Logo from "./parts/Logo";
-import "./styles.scss";
-import Navigation from "./parts/Navigation";
 import Search from "./parts/Search";
+import Navigation from "./parts/Navigation";
 import UserMenu from "./parts/UserMenu";
+import "./styles.header.scss";
 
 function Header() {
   return (

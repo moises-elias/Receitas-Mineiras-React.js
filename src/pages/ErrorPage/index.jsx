@@ -1,7 +1,7 @@
 import { BugOffIcon } from "lucide-react";
 import "./errorPage.scss";
 
-function Error404() {
+export function ErrorPage() {
   return (
     <main className="errorPage">
       <BugOffIcon />
@@ -12,5 +12,3 @@ function Error404() {
     </main>
   );
 }
-
-export default Error404;

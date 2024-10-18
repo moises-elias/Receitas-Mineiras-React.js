@@ -1,0 +1,30 @@
+@import "../../../../styles/themes/variables.scss";
+
+.homePage {
+  .popularRecipesPart {
+    padding-bottom: 2%;
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      li {
+        list-style: none;
+      }
+
+      a {
+        color: black;
+        &:hover {
+          color: $azul-royal;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .popularRecipesPart {
+      ul {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+      }
+    }
+  }
+}

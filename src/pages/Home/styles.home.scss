@@ -1,0 +1,11 @@
+.homePage {
+  text-align: center;
+  section {
+    margin-top: 2%;
+  }
+  @media screen and (max-width: 768px) {
+    section {
+      margin-top: 5%;
+    }
+  }
+}

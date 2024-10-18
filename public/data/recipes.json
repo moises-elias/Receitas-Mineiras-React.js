@@ -1,0 +1,407 @@
+[
+  {
+    "id": 1,
+    "nome": "Feijão Tropeiro",
+    "categoria": "Refeição",
+    "descricao": "Um prato típico mineiro feito com feijão, farinha de mandioca, bacon e temperos.",
+    "ingredientes": [
+      "Feijão carioquinha",
+      "Farinha de mandioca",
+      "Bacon",
+      "Cebola",
+      "Alho",
+      "Salsinha",
+      "Sal e pimenta a gosto"
+    ],
+    "preparo": "Cozinhe o feijão até ficar macio. Em uma panela, frite o bacon, a cebola e o alho. Misture o feijão cozido e adicione a farinha de mandioca, mexendo bem. Finalize com salsinha, sal e pimenta.",
+    "imageUrl": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/80d5d91b377b35da2338d66e35ba21ee.jpg",
+    "videoUrl": "https://www.youtube.com/embed/xzoQAnqVFg0"
+  },
+  {
+    "id": 2,
+    "nome": "Pão de Queijo",
+    "categoria": "Café da manhã",
+    "descricao": "Um delicioso lanche feito com polvilho e queijo, muito popular em Minas Gerais.",
+    "ingredientes": ["Polvilho doce", "Queijo minas", "Ovos", "Leite", "Óleo", "Sal"],
+    "preparo": "Misture todos os ingredientes até formar uma massa homogênea. Modele bolinhas e coloque em uma assadeira. Asse em forno pré-aquecido a 180°C por cerca de 20 minutos.",
+    "imageUrl": "https://i.ytimg.com/vi/8lW_KzUJi0k/maxresdefault.jpg",
+    "videoUrl": "https://www.youtube.com/embed/R_Rto_bXzlQ"
+  },
+  {
+    "id": 3,
+    "nome": "Arroz com Pequi",
+    "categoria": "Refeição",
+    "descricao": "Arroz preparado com a fruta pequi, típico do cerrado.",
+    "ingredientes": ["Arroz", "Pequi", "Cebola", "Alho", "Água", "Sal", "Óleo"],
+    "preparo": "Refogue a cebola e o alho no óleo, adicione o arroz e frite por alguns minutos. Acrescente o pequi, a água e o sal. Cozinhe até o arroz ficar macio.",
+    "imageUrl": "https://img.freepik.com/premium-photo/rice-with-brazilian-pequi_556177-684.jpg",
+    "videoUrl": "https://www.youtube.com/embed/IOnfA5Aw4oE"
+  },
+  {
+    "id": 4,
+    "nome": "Vaca Atolada",
+    "categoria": "Refeição",
+    "descricao": "Um guisado de carne com mandioca, saboroso e reconfortante.",
+    "ingredientes": [
+      "Carne de boi em pedaços",
+      "Mandioca",
+      "Cebola",
+      "Alho",
+      "Tomate",
+      "Sal e pimenta a gosto"
+    ],
+    "preparo": "Cozinhe a carne em água até ficar macia. Adicione a mandioca, cebola, alho e tomate. Cozinhe até que a mandioca esteja macia e o caldo encorpado.",
+    "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2022/10/02/855550656-vaca-atolada-receita.jpg",
+    "videoUrl": "https://www.youtube.com/embed/bBvGlJJpE_E"
+  },
+  {
+    "id": 5,
+    "nome": "Polenta com Frango",
+    "categoria": "Refeição",
+    "descricao": "Um prato quente de polenta cremosa servida com frango desfiado.",
+    "ingredientes": ["Fubá de milho", "Água", "Frango cozido", "Cebola", "Alho", "Sal"],
+    "preparo": "Cozinhe o fubá em água até formar uma polenta. Desfie o frango e refogue com cebola e alho. Sirva o frango sobre a polenta.",
+    "imageUrl": "https://www.saboresajinomoto.com.br/uploads/images/recipes/polenta-mole-com-frango.jpg",
+    "videoUrl": "https://www.youtube.com/embed/_TJFfnJjnvc"
+  },
+  {
+    "id": 6,
+    "nome": "Tutu de Feijão",
+    "categoria": "Refeição",
+    "descricao": "Um prato saboroso que mistura feijão com farinha de mandioca.",
+    "ingredientes": ["Feijão", "Farinha de mandioca", "Bacon", "Cebola", "Alho", "Sal"],
+    "preparo": "Cozinhe o feijão e bata no liquidificador. Em uma panela, frite o bacon, cebola e alho. Misture o feijão batido e adicione a farinha de mandioca. Cozinhe até engrossar.",
+    "imageUrl": "https://cdn.tasteatlas.com/images/dishes/0ee8690ed5854eb9a599c536c9670d4a.jpg?w=600",
+    "videoUrl": "https://www.youtube.com/embed/xHsnvWXOc9o"
+  },
+  {
+    "id": 7,
+    "nome": "Frango com Quiabo",
+    "categoria": "Refeição",
+    "descricao": "Frango cozido com quiabo, um prato saboroso e nutritivo.",
+    "ingredientes": ["Frango em pedaços", "Quiabo", "Cebola", "Alho", "Tomate", "Sal"],
+    "preparo": "Refogue o frango com cebola e alho. Adicione o quiabo e o tomate, e cozinhe até que o frango esteja macio e o quiabo esteja cozido.",
+    "imageUrl": "https://i.panelinha.com.br/i1/64-bk-3716-30-panelinha-29-01-20-foto260.webp",
+    "videoUrl": "https://www.youtube.com/embed/UmYOAnlbvh0"
+  },
+  {
+    "id": 8,
+    "nome": "Queijo Minas",
+    "categoria": "Café da manhã",
+    "descricao": "Um queijo fresco e saboroso, típico de Minas Gerais.",
+    "ingredientes": ["Leite", "Fermento", "Sal"],
+    "preparo": "Aqueça o leite e adicione o fermento. Deixe coagular, escorra o soro e adicione sal. Modele o queijo e deixe descansar.",
+    "imageUrl": "https://www.aventuradobrasil.com/assets/img/news/Cheese-Queijo-Minas.jpg",
+    "videoUrl": "https://www.youtube.com/embed/fwPnngWvIu0"
+  },
+  {
+    "id": 9,
+    "nome": "Bolo de Fubá",
+    "categoria": "Café da manhã",
+    "descricao": "Um bolo macio feito com fubá, perfeito para o café da manhã.",
+    "ingredientes": ["Fubá", "Ovos", "Leite", "Açúcar", "Óleo", "Fermento em pó", "Sal"],
+    "preparo": "Misture todos os ingredientes até formar uma massa homogênea. Asse em forma untada a 180°C por cerca de 30 minutos.",
+    "imageUrl": "https://www.goya.com/media/3183/bolo-de-fub%C3%A1-brazilian-cornmeal-cake.jpg?quality=80",
+    "videoUrl": "https://www.youtube.com/embed/ukXdVZ4DmRw"
+  },
+  {
+    "id": 10,
+    "nome": "Canjiquinha",
+    "categoria": "Refeição",
+    "descricao": "Um prato feito com canjiquinha, um tipo de milho quebrado.",
+    "ingredientes": ["Canjiquinha", "Carne seca", "Cebola", "Alho", "Sal", "Cheiro verde"],
+    "preparo": "Cozinhe a canjiquinha com carne seca, cebola e alho. Adicione sal e cheiro verde a gosto antes de servir.",
+    "imageUrl": "https://www.receiteria.com.br/wp-content/uploads/1200-x-740-px.jpg",
+    "videoUrl": "https://www.youtube.com/embed/kuIiI4Pfz7I"
+  },
+  {
+    "id": 11,
+    "nome": "Galinhada",
+    "categoria": "Refeição",
+    "descricao": "Um prato tradicional com arroz e frango, temperado com açafrão.",
+    "ingredientes": ["Frango", "Arroz", "Cebola", "Alho", "Açafrão", "Sal"],
+    "preparo": "Refogue o frango com cebola e alho. Adicione o arroz e o açafrão, cozinhe com água até que o arroz esteja macio.",
+    "imageUrl": "https://s2.glbimg.com/ajGTiNj2FxByx96WP-01zz-wW4k=/e.glbimg.com/og/ed/f/original/2021/03/16/galinhada_camil.jpg",
+    "videoUrl": "https://www.youtube.com/embed/6bDDFALhJ30"
+  },
+  {
+    "id": 12,
+    "nome": "Feijão com Arroz",
+    "categoria": "Refeição",
+    "descricao": "Um clássico brasileiro que combina feijão e arroz.",
+    "ingredientes": ["Feijão", "Arroz", "Cebola", "Alho", "Sal"],
+    "preparo": "Cozinhe o feijão e o arroz separadamente. Refogue cebola e alho para temperar ambos. Sirva juntos.",
+    "imageUrl": "https://static.wixstatic.com/media/c83b1e_a9322085c9184bc3a355677cf7c87269~mv2.jpg/v1/fill/w_560,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/37875458_2045611602125307_476680621838565376_n.jpg",
+    "videoUrl": "https://www.youtube.com/embed/ZixNkHSR-kI"
+  },
+  {
+    "id": 13,
+    "nome": "Linguiça Mineira",
+    "categoria": "Refeição",
+    "descricao": "Uma linguiça saborosa, frequentemente usada em pratos mineiros.",
+    "ingredientes": ["Linguiça", "Alho", "Cebola", "Sal"],
+    "preparo": "Frite a linguiça com cebola e alho até dourar. Sirva quente.",
+    "imageUrl": "https://static.itdg.com.br/images/1200-630/64e2e5df6a2a73a6d25e212879c73446/355362-original.jpg",
+    "videoUrl": "https://www.youtube.com/embed/H4rnDM1Vm7Q"
+  },
+  {
+    "id": 14,
+    "nome": "Costela no Bafo",
+    "categoria": "Refeição",
+    "descricao": "Costela de boi cozida lentamente até ficar macia.",
+    "ingredientes": ["Costela de boi", "Cebola", "Alho", "Sal e pimenta a gosto"],
+    "preparo": "Tempere a costela com cebola, alho, sal e pimenta. Cozinhe em fogo baixo até ficar macia.",
+    "imageUrl": "https://www.sabornamesa.com.br/media/k2/items/cache/f3107c7911141734e4eeaad24ed6c748_XL.jpg",
+    "videoUrl": "https://www.youtube.com/embed/LR6D4wD5-Vg"
+  },
+  {
+    "id": 15,
+    "nome": "Queijo Coalho",
+    "categoria": "Café da manhã",
+    "descricao": "Um queijo típico, ideal para grelhar.",
+    "ingredientes": ["Leite", "Fermento", "Sal"],
+    "preparo": "Prepare como o queijo minas, mas com uma textura mais firme. Pode ser grelhado.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Queijo_coalho.jpg",
+    "videoUrl": "https://www.youtube.com/embed/tOT2DVkWkFM"
+  },
+  {
+    "id": 16,
+    "nome": "Arroz Carreteiro",
+    "categoria": "Refeição",
+    "descricao": "Um prato de arroz com carne seca e temperos.",
+    "ingredientes": ["Arroz", "Carne seca", "Cebola", "Alho", "Pimentão", "Sal"],
+    "preparo": "Refogue a carne seca com cebola, alho e pimentão. Adicione o arroz e água, cozinhando até o arroz ficar macio.",
+    "imageUrl": "https://i0.wp.com/gourmetcentric.com/wp-content/uploads/2016/02/IMG_1507.jpg?resize=750%2C551&ssl=1",
+    "videoUrl": "https://www.youtube.com/embed/F6FeqV0UCFc"
+  },
+  {
+    "id": 17,
+    "nome": "Doce de Leite",
+    "categoria": "Sobremesa",
+    "descricao": "Um doce cremoso feito a partir do leite e açúcar.",
+    "ingredientes": ["Leite", "Açúcar", "Bicarbonato de sódio"],
+    "preparo": "Cozinhe o leite com açúcar e bicarbonato, mexendo sempre até obter uma consistência cremosa.",
+    "imageUrl": "https://static.itdg.com.br/images/auto-auto/d4ccb5eeda2c735494a4cf0f58032099/shutterstock-1929542543.jpg",
+    "videoUrl": "https://www.youtube.com/embed/udffl9LanP8"
+  },
+  {
+    "id": 18,
+    "nome": "Pudim de Leite Condensado",
+    "categoria": "Sobremesa",
+    "descricao": "Um pudim cremoso feito com leite condensado e ovos.",
+    "ingredientes": ["Leite condensado", "Leite", "Ovos", "Açúcar"],
+    "preparo": "Bata todos os ingredientes no liquidificador e coloque em uma forma caramelizada. Cozinhe em banho-maria até firmar.",
+    "imageUrl": "https://s2-receitas.glbimg.com/epG_QAp8_yIJBQweLYqfRf2TEgM=/0x0:1366x768/600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2023/z/0/RsipkzTEu0Y1PGiavCpA/pudim-de-leite-condensado.jpg",
+    "videoUrl": "https://www.youtube.com/embed/UDYZqGqOdwA"
+  },
+  {
+    "id": 19,
+    "nome": "Bolo de Milho",
+    "categoria": "Café da manhã",
+    "descricao": "Um bolo macio e doce, feito com milho.",
+    "ingredientes": ["Milho verde", "Ovos", "Leite", "Açúcar", "Óleo", "Fermento em pó"],
+    "preparo": "Bata todos os ingredientes no liquidificador. Asse em forno pré-aquecido a 180°C por cerca de 40 minutos.",
+    "imageUrl": "https://blog.mantiqueirabrasil.com.br/wp-content/uploads/2023/06/receita-de-bolo-de-milho-verde-simples-e-saboroso.jpeg",
+    "videoUrl": "https://www.youtube.com/embed/FZa0OHLBqao"
+  },
+  {
+    "id": 20,
+    "nome": "Broa de Milho",
+    "categoria": "Café da manhã",
+    "descricao": "Um pão feito com fubá, típico das regiões rurais.",
+    "ingredientes": ["Fubá", "Açúcar", "Leite", "Ovos", "Fermento em pó", "Sal"],
+    "preparo": "Misture todos os ingredientes e asse em forminhas até dourar.",
+    "imageUrl": "https://www.sabornamesa.com.br/media/k2/items/cache/eb03856f51bf01b293f3bc77d566d6d4_XL.jpg",
+    "videoUrl": "https://www.youtube.com/embed/a1GahnhtOLE"
+  },
+  {
+    "id": 21,
+    "nome": "Pão de Mel",
+    "categoria": "Sobremesa",
+    "descricao": "Um bolo de mel e especiarias, coberto com chocolate.",
+    "ingredientes": ["Mel", "Farinha de trigo", "Ovos", "Açúcar", "Cacau em pó", "Fermento em pó"],
+    "preparo": "Misture todos os ingredientes até formar uma massa. Asse em forma untada e cubra com chocolate derretido.",
+    "imageUrl": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/a7e0cd2ad28375c69f8b96c7dfc91645.jpg",
+    "videoUrl": "https://www.youtube.com/embed/zQKBeKweEVE"
+  },
+  {
+    "id": 22,
+    "nome": "Café",
+    "categoria": "Bebida",
+    "descricao": "Bebida popular feita a partir dos grãos torrados e moídos do café.",
+    "ingredientes": ["Grãos de café", "Água"],
+    "preparo": "Moer os grãos, ferver a água e coar o café.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/1200px-A_small_cup_of_coffee.JPG",
+    "videoUrl": "https://www.youtube.com/embed/v1fIK00fiDM"
+  },
+  {
+    "id": 23,
+    "nome": "Fricassê de Frango",
+    "categoria": "Refeição",
+    "descricao": "Frango desfiado em um molho cremoso, servido com arroz.",
+    "ingredientes": ["Frango", "Creme de leite", "Milho", "Cebola", "Alho", "Sal"],
+    "preparo": "Refogue o frango, adicione cebola e alho, depois misture o creme de leite e o milho. Sirva com arroz.",
+    "imageUrl": "https://i.ytimg.com/vi/DOtr68AHGE8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAHGfXVDsR8ztBO0zbmGXSUWV-lGg",
+    "videoUrl": "https://www.youtube.com/embed/DOtr68AHGE8"
+  },
+  {
+    "id": 24,
+    "nome": "Galo no Tacho",
+    "categoria": "Refeição",
+    "descricao": "Um prato tradicional de galo cozido com temperos.",
+    "ingredientes": ["Galo", "Cebola", "Alho", "Tomate", "Sal", "Ervas"],
+    "preparo": "Cozinhe o galo com cebola, alho, tomate e ervas até ficar macio.",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVe7_xCANLZ2kwoDFqa3klXlfEkYXk0Jn6p_TzPuWecuHdhusgzhPpSpkVB0XSuG_zFTG_RiZbNvgYFs3EFB6Ad1-rPwM1yT192XDsB4OfsiHmc9ky9uBKI1HGFHEazOQjk8dgjlvAeHwo/s1600/Galo+guisado+com+pimento+e+batatinhas+cozidas_DSCN0014.JPG",
+    "videoUrl": "https://www.youtube.com/embed/iSjpntbv5UY"
+  },
+  {
+    "id": 25,
+    "nome": "Costela Assada",
+    "categoria": "Refeição",
+    "descricao": "Costela de boi assada lentamente no forno.",
+    "ingredientes": ["Costela de boi", "Temperos a gosto", "Cebola", "Alho"],
+    "preparo": "Tempere a costela e asse em forno baixo por várias horas até ficar bem macia.",
+    "imageUrl": "https://i.ytimg.com/vi/WLa2fbKVI_M/maxresdefault.jpg",
+    "videoUrl": "https://www.youtube.com/embed/WLa2fbKVI_M"
+  },
+  {
+    "id": 26,
+    "nome": "Bolo de Cenoura",
+    "categoria": "Café da manhã",
+    "descricao": "Bolo fofinho de cenoura com cobertura de chocolate.",
+    "ingredientes": ["Cenoura", "Ovos", "Açúcar", "Farinha de trigo", "Óleo", "Fermento em pó"],
+    "preparo": "Bata todos os ingredientes no liquidificador, asse em forma untada e cubra com chocolate derretido.",
+    "imageUrl": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipes%2F2024-04-bolo-de-cenoura-brazilian-carrot-cake%2Fbolo-de-cenoura-brazilian-carrot-cake-276",
+    "videoUrl": "https://www.youtube.com/embed/hsYjz6sYt4k"
+  },
+  {
+    "id": 27,
+    "nome": "Caldo Verde",
+    "categoria": "Refeição",
+    "descricao": "Uma sopa leve feita com batata, couve e chouriço.",
+    "ingredientes": ["Batata", "Couve", "Chouriço", "Cebola", "Alho", "Sal"],
+    "preparo": "Cozinhe batatas com cebola e alho, bata no liquidificador e adicione a couve picada e o chouriço.",
+    "imageUrl": "https://images.themodernproper.com/billowy-turkey/production/posts/CaldoVerde_9.jpg?w=1200&q=82&auto=format&fit=crop&dm=1708017235&s=dc42548ee2a63d7cba872631663bdb22",
+    "videoUrl": "https://www.youtube.com/embed/97JwzGYhKHo"
+  },
+  {
+    "id": 28,
+    "nome": "Pão de Milho Verde",
+    "categoria": "Café da manhã",
+    "descricao": "Um pão doce e macio feito com milho verde.",
+    "ingredientes": ["Milho verde", "Leite", "Ovos", "Açúcar", "Fermento em pó"],
+    "preparo": "Misture todos os ingredientes e asse em forma untada até dourar.",
+    "imageUrl": "https://i.ytimg.com/vi/G8_nNLDzR70/maxresdefault.jpg",
+    "videoUrl": "https://www.youtube.com/embed/G8_nNLDzR70"
+  },
+  {
+    "id": 29,
+    "nome": "Croquete de Carne Seca",
+    "categoria": "Aperitivo",
+    "descricao": "Um petisco crocante recheado com carne seca.",
+    "ingredientes": ["Carne seca", "Batata", "Farinha de trigo", "Ovo", "Farinha de rosca"],
+    "preparo": "Desfie a carne seca e misture com batata cozida. Modele em bolinhos, empane e frite até dourar.",
+    "imageUrl": "https://panutti.com.br/arquivos/produtos/imagens_adicionais/panutti_croquete_de_mandioca_com_carne_seca-205.JPG",
+    "videoUrl": "https://www.youtube.com/embed/SfnYj8C_ESM"
+  },
+  {
+    "id": 30,
+    "nome": "Torresmo",
+    "categoria": "Aperitivo",
+    "descricao": "Bacon frito até ficar crocante, um petisco muito apreciado.",
+    "ingredientes": ["Bacon", "Sal"],
+    "preparo": "Corte o bacon em cubos, frite até ficar crocante e tempere com sal.",
+    "imageUrl": "https://static.itdg.com.br/images/640-400/1a65d58562e73c836106fb87cd92834b/torresmo.jpg",
+    "videoUrl": "https://www.youtube.com/embed/jh4b0a5ctvk"
+  },
+  {
+    "id": 31,
+    "nome": "Doce de Abóbora",
+    "categoria": "Sobremesa",
+    "descricao": "Um doce caseiro feito de abóbora, açúcar e especiarias.",
+    "ingredientes": ["Abóbora", "Açúcar", "Cravo", "Canela"],
+    "preparo": "Cozinhe a abóbora com açúcar e especiarias até obter um doce consistente.",
+    "imageUrl": "https://m.ftscrt.com/static/recipe/bb38658f-1df3-421b-897d-aef49d07992d_fs2.jpg",
+    "videoUrl": "https://www.youtube.com/embed/nj0ioMO92wA"
+  },
+  {
+    "id": 32,
+    "nome": "Queijo na Brasa",
+    "categoria": "Aperitivo",
+    "descricao": "Queijo coalho grelhado, um petisco delicioso.",
+    "ingredientes": ["Queijo coalho"],
+    "preparo": "Grelhe o queijo até ficar dourado por fora e macio por dentro.",
+    "imageUrl": "https://www.3palmeiras.com/arquivos/queijo-coalho.jpg",
+    "videoUrl": "https://www.youtube.com/embed/Nx3dJGQ-ng0"
+  },
+  {
+    "id": 33,
+    "nome": "Sopa de Mandioquinha",
+    "categoria": "Refeição",
+    "descricao": "Uma sopa cremosa feita com mandioquinha.",
+    "ingredientes": ["Mandioquinha", "Cebola", "Alho", "Caldo de galinha", "Creme de leite"],
+    "preparo": "Refogue a cebola e o alho, adicione mandioquinha e caldo, cozinhe até ficar macio e bata no liquidificador com creme de leite.",
+    "imageUrl": "https://i.panelinha.com.br/i1/228-bk-1296-sopa.webp",
+    "videoUrl": "https://www.youtube.com/embed/hKTQGP9fRVo"
+  },
+  {
+    "id": 34,
+    "nome": "Pato no Tucupi",
+    "categoria": "Refeição",
+    "descricao": "Um prato típico da Amazônia, feito com pato e tucupi.",
+    "ingredientes": ["Pato", "Tucupi", "Jambu", "Alho", "Sal"],
+    "preparo": "Cozinhe o pato no tucupi e sirva com jambu.",
+    "imageUrl": "https://chefsandromartins.com/wp-content/uploads/2018/08/pato-no-tucupi.jpg",
+    "videoUrl": "https://www.youtube.com/embed/AUe-HDcxDcw"
+  },
+  {
+    "id": 35,
+    "nome": "Arroz Doce",
+    "categoria": "Sobremesa",
+    "descricao": "Uma sobremesa feita com arroz, leite e açúcar.",
+    "ingredientes": ["Arroz", "Leite", "Açúcar", "Canela"],
+    "preparo": "Cozinhe o arroz no leite com açúcar e canela até ficar cremoso.",
+    "imageUrl": "https://jpimg.com.br/uploads/2024/04/5-receitas-de-arroz-doce-cremoso.jpg",
+    "videoUrl": "https://www.youtube.com/embed/ri3AC7Tt2Uk"
+  },
+  {
+    "id": 36,
+    "nome": "Cachaça",
+    "categoria": "Bebida",
+    "descricao": "Bebida alcoólica destilada da cana-de-açúcar, famosa no Brasil.",
+    "ingredientes": ["Cana-de-açúcar"],
+    "preparo": "Fermentar o caldo de cana-de-açúcar e destilar.",
+    "imageUrl": "https://www.cnnbrasil.com.br/viagemegastronomia/wp-content/uploads/sites/5/2022/09/cachac%CC%A7a-istock-divulgacoa.jpeg?w=1050&h=580&crop=1&quality=85",
+    "videoUrl": "https://www.youtube.com/embed/4dvkmEbpgMM"
+  },
+  {
+    "id": 37,
+    "nome": "Chá de Erva-Doce",
+    "categoria": "Bebida",
+    "descricao": "Infusão feita com sementes de erva-doce, conhecida por suas propriedades digestivas.",
+    "ingredientes": ["Sementes de erva-doce", "Água"],
+    "preparo": "Ferver as sementes em água e coar.",
+    "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/33/2021/12/28/cha-de-erva-doce-1640724409139_v2_900x506.jpg",
+    "videoUrl": "https://www.youtube.com/embed/kuV8n7-89SI"
+  },
+  {
+    "id": 38,
+    "nome": "Suco de Caju",
+    "categoria": "Bebida",
+    "descricao": "Suco feito com a polpa da fruta caju, refrescante e saboroso.",
+    "ingredientes": ["Polpa de caju", "Água"],
+    "preparo": "Bater a polpa de caju com água e coar.",
+    "imageUrl": "https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3359597:1681873523/Suco%20de%20caju.jpg?f=16x9&h=698&w=1280&$p$f$h$w=4952c84",
+    "videoUrl": "https://www.youtube.com/embed/G3WjHL7bhWs"
+  },
+  {
+    "id": 39,
+    "nome": "Caldo de Cana",
+    "categoria": "Bebida",
+    "descricao": "Bebida doce feita a partir do caldo da cana-de-açúcar.",
+    "ingredientes": ["Cana-de-açúcar"],
+    "preparo": "Extrair o caldo da cana e servir gelado.",
+    "imageUrl": "https://static1.minhavida.com.br/recipes/62/8e/70/16/caldo-de-cana-orig-1.jpg",
+    "videoUrl": "https://www.youtube.com/embed/cRJ17HO6uHc"
+  }
+]

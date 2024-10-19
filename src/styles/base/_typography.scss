@@ -1,11 +1,11 @@
 // Fontes
-@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
 // Configurações de fonte
 body {
-  font-family: "Merriweather", serif;
+  font-family: "Montserrat", "Poppins", "Raleway", sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", "Montserrat", "Raleway", sans-serif;
   font-weight: bold;
   margin-bottom: 10px;
 }

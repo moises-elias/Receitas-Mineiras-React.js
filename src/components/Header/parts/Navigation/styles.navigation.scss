@@ -123,10 +123,12 @@ header {
       }
 
       .categoryMenuClosed {
+        visibility: hidden;
         animation: fadeOut 0.5s forwards;
       }
 
       .categoryMenuOpened {
+        visibility: visible;
         animation: fadeIn 0.5s forwards;
       }
     }

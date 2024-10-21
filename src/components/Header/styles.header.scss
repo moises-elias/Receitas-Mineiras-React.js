@@ -3,6 +3,8 @@ header {
   width: 100%;
   background-color: $azul-base;
   display: grid;
-
-  padding: 0 20px;
+  grid-template-columns: 1fr 2fr 1fr;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
 }

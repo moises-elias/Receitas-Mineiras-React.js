@@ -1,10 +1,10 @@
 import "./styles.logo.scss";
-function Logo() {
+export function Logo() {
   return (
     <div className="logo">
-      <img src="/default_transparent_765x625.png" alt="Logo" />
+      <a href="/">
+        <img src="/default_transparent_765x625.png" alt="Logo" />
+      </a>
     </div>
   );
 }
-
-export default Logo;

@@ -4,19 +4,34 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 80%;
     margin: 1%;
     gap: 5px;
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+    @media screen and (max-width: 768px) {
+      grid-row: 2/3;
+      grid-column: 1/2;
+    }
+
     input {
       width: 100%;
       background-color: transparent;
       padding: 5px;
       border-radius: 5px;
-      border: 1px solid $azul-royal;
+      border: 1px solid $azul-cobalto;
       color: white;
+      transition: scale ease 0.2s;
+
+      &:hover {
+        box-shadow: 0px 0px 40px $azul-cobalto;
+      }
       &:focus {
-        outline: white solid 3px;
-        background-color: $azul-royal;
+        outline: $azul-cobalto solid 1px;
+        background-color: b;
+        box-shadow: 5px 5px 40px $azul-cobalto;
+        scale: 1.01;
         &::placeholder {
           color: white;
         }
@@ -25,10 +40,17 @@ header {
 
     button {
       background-color: transparent;
-      color: $azul-royal;
+      color: $azul-cobalto;
       border-radius: 5px;
-      border: 1px solid $azul-royal;
-      padding: 5px;
+      border: 1px solid $azul-cobalto;
+      padding: 3px 4px;
+
+      &:hover {
+        cursor: pointer;
+        box-shadow: 5px 5px 40px $azul-cobalto;
+        background-color: $azul-cobalto;
+        color: white;
+      }
     }
   }
 }

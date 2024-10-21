@@ -1,7 +1,4 @@
-import Logo from "./parts/Logo";
-import Search from "./parts/Search";
-import Navigation from "./parts/Navigation";
-import UserMenu from "./parts/UserMenu";
+import { Logo, Search, UserMenu, Navigation } from "./parts";
 import "./styles.header.scss";
 
 function Header() {
@@ -9,8 +6,8 @@ function Header() {
     <header>
       <Logo />
       <Search />
-      <Navigation />
       <UserMenu />
+      <Navigation />
     </header>
   );
 }

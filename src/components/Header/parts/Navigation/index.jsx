@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from "react";
-import { X, ChevronDownIcon } from "lucide-react";
+import { ChevronDownIcon, ChevronUpIcon } from "lucide-react";
 import "./styles.navigation.scss";
 
-function Navigation() {
+export function Navigation() {
   const [categoryMenuState, setCategoryMenuState] = useState(false);
   const categoryMenuDropdownRef = useRef(null);
 
@@ -26,27 +26,30 @@ function Navigation() {
         document.removeEventListener("mousedown", handleClickOutside);
       };
     }, []);
-    if (categoryMenuState) {
-      return (
-        <div className="categoryMenu categoryMenuOpen">
-          <a className="categoryButton" href="">
-            Refeição
-          </a>
-          <a className="categoryButton" href="">
-            Café da manhã
-          </a>
-          <a className="categoryButton" href="">
-            Sobremesa
-          </a>
-          <a className="categoryButton" href="">
-            Aperitivo
-          </a>
-          <a className="categoryButton" href="">
-            Bebida
-          </a>
-        </div>
-      );
-    }
+
+    return (
+      <div
+        className={`categoryMenu ${
+          !categoryMenuState ? "categoryMenuClosed" : "categoryMenuOpened"
+        }`}
+      >
+        <a className=" categoryButton button" href="/category/refeicao">
+          Refeição
+        </a>
+        <a className="button categoryButton" href="/category/cafe-da-manha">
+          Café da manhã
+        </a>
+        <a className="button categoryButton" href="/category/sobremesa">
+          Sobremesa
+        </a>
+        <a className="button categoryButton" href="/category/aperitivo">
+          Aperitivo
+        </a>
+        <a className="button categoryButton" href="/category/bebida">
+          Bebida
+        </a>
+      </div>
+    );
   }
 
   return (
@@ -57,10 +60,14 @@ function Navigation() {
             INICIO
           </a>
         </li>
-        <li ref={categoryMenuDropdownRef}>
-          <a className="button" onClick={categoryMenuClick}>
+        <li className="liCategory" ref={categoryMenuDropdownRef}>
+          <a className={`button ${categoryMenuState ? "active" : ""}`} onClick={categoryMenuClick}>
             CATEGORIA
-            {categoryMenuState ? <X size={16} /> : <ChevronDownIcon size={16} />}
+            {categoryMenuState ? (
+              <ChevronUpIcon size={16} className="iconCategory" />
+            ) : (
+              <ChevronDownIcon size={16} />
+            )}
           </a>
           <CategoryMenDropdown />
         </li>
@@ -70,7 +77,7 @@ function Navigation() {
           </a>
         </li>
         <li>
-          <a href="/" className="button">
+          <a href="/recipe/0" className="button">
             SURPREENDA-ME
           </a>
         </li>
@@ -78,5 +85,3 @@ function Navigation() {
     </nav>
   );
 }
-
-export default Navigation;

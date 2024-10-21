@@ -1,13 +1,26 @@
 @import "../../../../styles/themes/variables.scss";
 header {
   .userMenu {
-    position: absolute;
-    right: 0;
-    top: 0;
+    height: 50%;
     display: flex;
     gap: 20px;
-    margin: 1%;
-    a {
+    justify-self: end;
+    align-self: center;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    margin-right: 5%;
+    @media screen and (max-width: 768px) {
+      grid-row: 2/3;
+      grid-column: 2/3;
+    }
+
+    @media screen and (max-width: 480px) {
+      display: block;
+      justify-self: center;
+      align-self: start;
+    }
+
+    .buttonRoyal {
       background-color: $azul-royal;
       display: flex;
       align-items: center;
@@ -16,9 +29,22 @@ header {
       border: solid 1px $azul-royal;
       border-radius: 5px;
       gap: 5px;
-
+      transition: outline 0.1s ease;
+      transition: scale 0.5s ease;
+      font-size: 1vw;
       &:hover {
-        outline: auto;
+        scale: (1.1);
+        outline: white 3px solid;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 3vw;
+      }
+    }
+    @media screen and (max-width: 480px) {
+      display: block;
+      margin-bottom: 2%;
+      .buttonRoyal + .buttonRoyal {
+        margin-top: 10px;
       }
     }
   }

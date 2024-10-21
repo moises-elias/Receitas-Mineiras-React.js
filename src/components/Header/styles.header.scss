@@ -2,9 +2,7 @@
 header {
   width: 100%;
   background-color: $azul-base;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+
   padding: 0 20px;
 }

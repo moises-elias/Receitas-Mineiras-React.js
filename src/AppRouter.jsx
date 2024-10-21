@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
-import { Home, ErrorPage, Recipe } from "./pages";
+import { Home, ErrorPage, Recipe, SurpriseRecipe } from "./pages";
 
 function AppRouter() {
   const router = createBrowserRouter([
@@ -16,6 +16,10 @@ function AppRouter() {
         {
           path: "/recipe/:id",
           element: <Recipe />,
+        },
+        {
+          path: "/recipe/0",
+          element: <SurpriseRecipe />,
         },
       ],
     },

@@ -1,7 +1,7 @@
 import { Logo, Search, UserMenu, Navigation } from "./parts";
 import "./styles.header.scss";
 
-function Header() {
+export function Header() {
   return (
     <header>
       <Logo />
@@ -11,5 +11,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

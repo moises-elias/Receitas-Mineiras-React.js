@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App";
+import App from "./components/Layout/MainLayout";
 import { Home, ErrorPage, Recipe, SurpriseRecipe } from "./pages";
 
 function AppRouter() {

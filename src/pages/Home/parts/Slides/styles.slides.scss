@@ -1,4 +1,4 @@
-@import "../../../../styles/themes/variables.scss";
+@use "@/styles/themes/variables.scss";
 
 .homePage {
   .slidesPart {
@@ -11,11 +11,11 @@
 
       .swiper {
         width: 70%;
-        box-shadow: 0px 0px 40px 5px $azul-base;
+        box-shadow: 0px 0px 40px 5px variables.$azul-base;
         height: 60vh;
         overflow: hidden;
         border-radius: 15px;
-        background-color: $azul-cobalto;
+        background-color: variables.$azul-cobalto;
 
         a {
           width: 100%;
@@ -23,14 +23,14 @@
         }
 
         .swiper-pagination-bullet {
-          background-color: $azul-palido;
+          background-color: variables.$azul-palido;
           width: 12px;
           height: 12px;
           opacity: 0.6;
           transition: opacity 0.3s ease;
 
           &-active {
-            background-color: $azul-base;
+            background-color: variables.$azul-base;
             opacity: 1;
           }
         }
@@ -39,17 +39,17 @@
         .swiper-button-next,
         .swiper-button-prev {
           padding: 3%;
-          color: $azul-cobalto;
+          color: variables.$azul-cobalto;
 
           transition: color 0.3s ease;
           &:hover {
-            color: $azul-palido;
+            color: variables.$azul-palido;
           }
         }
       }
       /* Estilo para os slides */
       .swiper-slide {
-        background-color: $azul-cobalto;
+        background-color: variables.$azul-cobalto;
         display: flex;
         flex-direction: column;
         justify-content: center;

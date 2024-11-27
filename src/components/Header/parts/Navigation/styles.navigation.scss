@@ -1,4 +1,4 @@
-@import "../../../../styles/themes/variables.scss";
+@use "@/styles/themes/variables.scss";
 
 @keyframes fadeIn {
   from {
@@ -67,7 +67,7 @@ header {
       &:hover {
         transition: background-color ease 0.3s;
         cursor: pointer;
-        background-color: $azul-royal;
+        background-color: variables.$azul-royal;
         color: white;
       }
       @media screen and (max-width: 1024px) {
@@ -83,7 +83,7 @@ header {
     }
 
     .active {
-      background-color: $azul-royal;
+      background-color: variables.$azul-royal;
     }
 
     .liCategory {
@@ -102,11 +102,11 @@ header {
         position: absolute;
         border-radius: 10px;
         color: white;
-        background-color: $azul-royal;
+        background-color: variables.$azul-royal;
         padding: 1% 2%;
         z-index: 2;
         border-top: 0;
-        box-shadow: 0px 0px 40px 5px $azul-base;
+        box-shadow: 0px 0px 40px 5px variables.$azul-base;
 
         .categoryButton {
           display: block;
@@ -115,7 +115,7 @@ header {
           transition: scale ease 0.1s;
           &:hover {
             scale: (1.05);
-            background-color: $azul-base;
+            background-color: variables.$azul-base;
           }
         }
 

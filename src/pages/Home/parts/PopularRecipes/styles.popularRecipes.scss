@@ -1,4 +1,4 @@
-@import "../../../../styles/themes/variables.scss";
+@use "@/styles/themes/variables.scss";
 
 .homePage {
   .popularRecipesPart {
@@ -14,7 +14,7 @@
       a {
         color: black;
         &:hover {
-          color: $azul-royal;
+          color: variables.$azul-royal;
         }
       }
     }

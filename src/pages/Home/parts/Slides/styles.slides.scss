@@ -21,11 +21,13 @@
           width: 100%;
           height: 100%;
         }
-
+        .swiper-pagination {
+          margin-bottom: -0.5%;
+        }
         .swiper-pagination-bullet {
           background-color: variables.$azul-palido;
-          width: 12px;
-          height: 12px;
+          width: 8px;
+          height: 8px;
           opacity: 0.6;
           transition: opacity 0.3s ease;
 

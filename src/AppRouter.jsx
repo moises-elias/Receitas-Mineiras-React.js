@@ -1,6 +1,6 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, redirect, RouterProvider } from "react-router-dom";
 import App from "./components/Layout/MainLayout";
-import { Home, ErrorPage, Recipe, SurpriseRecipe } from "./pages";
+import { Home, ErrorPage, Recipe, SurpriseRecipe, UnderConstructionPage } from "./pages";
 
 function AppRouter() {
   const router = createBrowserRouter([
@@ -21,7 +21,31 @@ function AppRouter() {
           path: "/recipe/0",
           element: <SurpriseRecipe />,
         },
+        {
+          path: "/login",
+          loader: () => redirect("/under-construction"),
+        },
+        {
+          path: "/register",
+          loader: () => redirect("/under-construction"),
+        },
+        {
+          path: "/profile",
+          loader: () => redirect("/under-construction"),
+        },
+        {
+          path: "/category/:category",
+          loader: () => redirect("/under-construction"),
+        },
+        {
+          path: "about",
+          loader: () => redirect("/under-construction"),
+        },
       ],
+    },
+    {
+      path: "/under-construction",
+      element: <UnderConstructionPage />,
     },
   ]);
 

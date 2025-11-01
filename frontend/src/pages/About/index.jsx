@@ -18,7 +18,16 @@ export function About() {
         </p>
         <h2>Video do nosso presidente</h2>
         <div className="video">
-          <iframe src="https://youtube.com/embed/o-YBDTqX_ZU?si=U4evgoyHxyUyDLRM"></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=l7GLo_BM8abbPt8t"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
       </section>
       <section className="aboutTeam">
